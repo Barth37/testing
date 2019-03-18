@@ -9,7 +9,7 @@
             url: queryURL,
             method: "GET"
         }).then(function (response) {
-            console.log(queryURL);
+            console.log(response);
             if (response.length > 0) {
                /* $("#weather_info").removeClass("d-none");
                 $("#weather_card").append("<div id='w'_icon'>Icon: " + response.currently.icon + "</div>");
